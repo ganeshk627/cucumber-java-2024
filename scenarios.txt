@@ -1,0 +1,34 @@
+Gherkin Language
+
+Scenario Name: Login Test
+1. Open browser
+2. Open Orange application
+3. Enter username as "ganeshk"
+4. Enter password as "admin@123"
+5. Click the login button
+6. Verify dashboard url
+7. close the browser/ application
+
+
+Scenario forgot password
+
+
+Scenario Name: Multiple Login Test
+1. Open browser
+2. Open Orange application
+3. Enter username as "ganeshk"
+4. Enter password as "admin@123"
+5. Click the login button
+6. Verify dashboard url
+7. close the browser/ application
+data1: admin/admin123
+data2: ganeshk/admin123
+
+
+Navigation Side Bar Panel
+
+Admin search
+
+
+
+
