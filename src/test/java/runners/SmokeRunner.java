@@ -8,14 +8,14 @@ import org.junit.runner.RunWith;
 @RunWith(Cucumber.class)
 @CucumberOptions(
 //        features = "classpath:features", // To execute all the feature files under features folder
-        features = "classpath:features/smoke/login.feature", // To execute only login feature
+        features = "classpath:features/smoke", // To execute only login feature
         glue = "stepdefinitions", // To specify step definition files
-        dryRun = false, // checks whether all the steps have step definitions
+        dryRun = true, // checks whether all the steps have step definitions
 
         publish = false,
         plugin = {
               "pretty", // logs the steps in the console
-                "html:reports/cucumber-report.html",
+                "html:reports/smoke-report.html",
         },
 
 
@@ -24,6 +24,6 @@ import org.junit.runner.RunWith;
 
 
 )
-public class TestRunner {
+public class SmokeRunner {
 
 }

@@ -1,4 +1,4 @@
-Feature: As an registered user, I want login and I should be navigated to the dashboard page.
+Feature: As a registered user, I want login and I should be navigated to the dashboard page.
 
 
   Scenario: Verify that I am a able to login with Admin credentials
